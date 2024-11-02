@@ -6,7 +6,9 @@ Check out the companion blog post, [Get started with Quarkus by building a simpl
 
 ## Running the application in dev mode
 
-You can run your application in dev mode that enables live coding using:
+First, visit this [page](https://quarkus.io/guides/cli-tooling) to install the Quarkus CLI tool for your platform.
+
+After installing the CLI tool, you can then run the application in dev mode (enables live coding) using:
 
 ```bash
 $ quarkus dev
