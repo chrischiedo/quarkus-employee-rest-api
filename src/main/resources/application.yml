@@ -4,7 +4,7 @@ quarkus:
   datasource:
     db-kind: postgresql
     devservices:
-      image-name: postgres:13
+      image-name: postgres:16
   hibernate-orm:
     database:
       generation: none
