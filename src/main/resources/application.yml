@@ -21,7 +21,7 @@ quarkus:
         sql: true
     flyway:
       migrate-at-start: true
-      locations: db/migration,db/testdata
+      locations: db/migration
 
 "%test":
   quarkus:
@@ -35,7 +35,7 @@ quarkus:
         sql: true
     flyway:
       migrate-at-start: true
-      locations: db/migration,db/testdata
+      locations: db/migration
 
 mp:
   openapi:
