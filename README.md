@@ -14,15 +14,16 @@ After installing the CLI tool, you can then run the application in dev mode (ena
 $ quarkus dev
 ```
 
-
-## Check OpenAPI/Swagger documentation 
-
-Visit http://localhost:8080/q/swagger-ui on your browser to see the Swagger documentation for the API.
-
-## Tests
+## Running tests
 
 To run tests for the project use:
 
 ```bash
 $ quarkus test
 ```
+
+## Checking out OpenAPI/Swagger documentation
+
+Visit http://localhost:8080/q/swagger-ui on your browser to view the Swagger documentation for the API:
+
+<img width="2876" alt="books-api-swagger-docs" src="api-docs.png">
